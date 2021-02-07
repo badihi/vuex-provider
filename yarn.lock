@@ -4107,6 +4107,11 @@ vue@^2.6.12:
   resolved "https://registry.npmjs.org/vue/-/vue-2.6.12.tgz#f5ebd4fa6bd2869403e29a896aed4904456c9123"
   integrity sha512-uhmLFETqPPNyuLLbsKz6ioJ4q7AZHzD8ZVFNATNyICSZouqP2Sz0rotWQC8UNBF6VGSCs5abnKJoStA6JbCbfg==
 
+vuex-module-accessor@^1.0.5:
+  version "1.0.5"
+  resolved "https://registry.npmjs.org/vuex-module-accessor/-/vuex-module-accessor-1.0.5.tgz#fcc3f54528623920d4651786df23945b8847f546"
+  integrity sha512-BA80tLjy0R5R7prUXPmLgQ3YnpptnFpcnMsfuMLhvnQMTwNg5Tc6RkFH77rTHBvKoUOxbRjZ19ToAxp8k7lvnQ==
+
 vuex@^3.6.0:
   version "3.6.0"
   resolved "https://registry.npmjs.org/vuex/-/vuex-3.6.0.tgz#95efa56a58f7607c135b053350833a09e01aa813"

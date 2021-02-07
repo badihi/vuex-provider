@@ -5,16 +5,11 @@
 </template>
 
 <script lang="ts">
-import Vue from 'vue';
-
 import AnimalModule from '../modules/animalModule';
-import ReptileModule from '../modules/reptileModule';
 
-import { consumer } from '../../../lib/context';
+import { consumer } from 'vuex-provider';
 
 export default consumer(AnimalModule).extend({
-	mounted() {
-		// console.log(this.provider);
-	}
+	mounted() {}
 });
 </script>

@@ -1,5 +1,5 @@
 import { Store } from 'vuex';
-import { ModuleAccessor } from '..';
+import { ModuleAccessor } from 'vuex-module-accessor';
 
 export type ModuleAbstract<TModule> = Function & { prototype: TModule };
 export type ModuleConstructor<TModule> = new (...args: any[]) => TModule;

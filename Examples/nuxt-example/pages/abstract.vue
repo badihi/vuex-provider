@@ -19,7 +19,7 @@ import ReptileModule from '../modules/reptileModule';
 
 import Print from '../components/Print.vue';
 
-import { provider } from '../../../lib/context';
+import { provider } from 'vuex-provider';
 
 export default Vue.extend({
 	computed: {},

@@ -14,7 +14,7 @@ import Vue from 'vue';
 import FooModule from '../modules/fooModule';
 import BarModule from '../modules/barModule';
 
-import { consumer } from '../../../lib/context';
+import { consumer } from 'vuex-provider';
 
 export default consumer(BarModule).extend({
 	mounted() {

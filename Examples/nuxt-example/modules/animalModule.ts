@@ -1,4 +1,4 @@
-import { Module } from '../../../lib';
+import { Module } from 'vuex-module-accessor';
 
 export abstract class AnimalState {}
 

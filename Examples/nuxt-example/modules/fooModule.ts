@@ -1,4 +1,4 @@
-import { Module, mutation } from '../../../lib';
+import { Module, mutation } from 'vuex-module-accessor';
 
 class FooState {
 	testValue: string = 'Foo Module';

@@ -1,9 +1,7 @@
 import Vue, { VueConstructor } from 'vue';
 import Vuex, { Module as VModule } from 'vuex';
 import { Reflection } from '@abraham/reflection';
-import ModuleAccessor from '../ModuleAccessor';
-import Module from '../Module';
-import { ExtractState } from '../Types';
+import { ModuleAccessor, Module, ExtractState } from 'vuex-module-accessor';
 import { InjectMeta, ProviderData, ModuleConstructor } from './types';
 import { getAccessor, getModuleNames } from './helpers';
 import { INJECT_KEY } from './decorators';

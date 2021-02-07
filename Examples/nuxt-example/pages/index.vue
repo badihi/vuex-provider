@@ -19,7 +19,7 @@ import BarModule from '../modules/barModule';
 
 import Counter from '../components/Counter.vue';
 
-import { provider } from '../../../lib/context';
+import { provider } from 'vuex-provider';
 
 export default Vue.extend({
 	computed: {},

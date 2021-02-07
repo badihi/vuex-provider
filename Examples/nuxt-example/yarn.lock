@@ -7883,11 +7883,6 @@ vue@^2.6.12:
   resolved "https://registry.yarnpkg.com/vue/-/vue-2.6.12.tgz#f5ebd4fa6bd2869403e29a896aed4904456c9123"
   integrity sha512-uhmLFETqPPNyuLLbsKz6ioJ4q7AZHzD8ZVFNATNyICSZouqP2Sz0rotWQC8UNBF6VGSCs5abnKJoStA6JbCbfg==
 
-vuex-module-accessor@^1.0.1:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/vuex-module-accessor/-/vuex-module-accessor-1.0.1.tgz#21799daa8e8340f69bdab8642278e46048e9c112"
-  integrity sha512-KoEKYUUDb+jCvo4vPc18tBhs1VNiXzmm4B/OcljWDjxytNaO10rxzi13KY6ml2qDEhL984LzCT+4jG5tdnd9yg==
-
 vuex@^3.6.0:
   version "3.6.0"
   resolved "https://registry.yarnpkg.com/vuex/-/vuex-3.6.0.tgz#95efa56a58f7607c135b053350833a09e01aa813"

@@ -1,8 +1,7 @@
-import { Module } from '../../../lib';
-import { inject } from '../../../lib/context';
+import { Module, ModuleGetter } from 'vuex-module-accessor';
+import { inject } from 'vuex-provider';
 
 import FooModule from '~/modules/fooModule';
-import { ModuleGetter } from '~/../../lib/Types';
 
 class BarState {}
 

@@ -1,11 +1,10 @@
+import { Module, ExtractState } from 'vuex-module-accessor';
 import {
 	Accessors,
 	Accessor,
 	ModuleConstructor,
 	ModuleAbstract
 } from './types';
-import Module from '../Module';
-import { ExtractState } from '../Types';
 
 export function getAccessor<
 	TModule extends Module<TState>,

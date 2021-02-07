@@ -1,8 +1,6 @@
 import Vue from 'vue';
 import Vuex from 'vuex';
-import ModuleAccessor from '../ModuleAccessor';
-import Module from '../Module';
-import { ExtractState } from '../Types';
+import { ModuleAccessor, Module, ExtractState } from 'vuex-module-accessor';
 import {
 	ProviderData,
 	ConsumerOptions,
