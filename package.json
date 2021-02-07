@@ -1,0 +1,49 @@
+{
+	"name": "vuex-provider",
+	"version": "0.0.1",
+	"description": "a module provider for vuex(using vuex-module-accessor)",
+	"main": "lib/index.js",
+	"types": "lib/index.d.ts",
+	"repository": "https://github.com/badihi/vuex-provider",
+	"keywords": [
+		"vue",
+		"vuex",
+		"nuxtjs",
+		"nuxt"
+	],
+	"author": "Ahmadreza Badihi",
+	"license": "MIT",
+	"files": [
+		"lib/**/*"
+	],
+	"scripts": {
+		"build": "tsc",
+		"dev": "tsc -w",
+		"test": "jest --config jestconfig.json",
+		"lint": "eslint --ext .js,.vue,.ts --ignore-path .eslintignore .",
+		"prepare": "npm run build",
+		"prepublishOnly": "npm test && npm run lint",
+		"preversion": "npm run lint",
+		"version": "npm run format && git add -A src",
+		"postversion": "git push && git push --tags"
+	},
+	"devDependencies": {
+		"@types/jest": "^26.0.19",
+		"@types/node": "^14.0.24",
+		"@typescript-eslint/eslint-plugin": "^4.10.0",
+		"@typescript-eslint/parser": "^4.10.0",
+		"eslint": "^7.15.0",
+		"eslint-config-prettier": "^7.0.0",
+		"eslint-plugin-prettier": "^3.3.0",
+		"jest": "^26.6.3",
+		"prettier": "^2.2.1",
+		"ts-jest": "^26.4.4",
+		"typescript": "^3.9.7",
+		"vue": "^2.6.12",
+		"vuex": "^3.6.0"
+	},
+	"dependencies": {
+		"@abraham/reflection": "^0.7.0",
+		"vuex-module-accessor": "^1.0.5"
+	}
+}
